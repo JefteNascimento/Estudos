@@ -1,0 +1,17 @@
+div#d1,#d2,#d3{
+     border: 15px dotted #000; 
+     padding: 0px 100px 50px 10px; /*topo,dir,baixo,esq*/
+     background-image: url(brasil.png);
+}
+
+div#d1{
+    background-clip: border-box;/*considera a borda*/
+}
+
+div#d2{
+    background-clip: padding-box;/*nao considera a borda*/
+}
+
+div#d3{
+    background-clip: content-box; /*somente onde tem conteudo*/
+}
