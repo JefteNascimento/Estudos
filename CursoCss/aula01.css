@@ -1,0 +1,27 @@
+body {
+  background-image: url(Brasil.png);
+  background-size: 200px 200px; /*Largura altura*/
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: rgb(102, 102, 206);
+}
+p {
+  color: brown;
+  font-size: 20pt;
+}
+
+p#p1 {
+  color: blueviolet;
+}
+
+.txt {
+  color: green;
+  font-size: 30pt;
+}
+h4,
+h5,
+h6 {
+  color: darkorange;
+  font-size: 15pt;
+  font-weight: lighter; /*Peso da font*/
+}

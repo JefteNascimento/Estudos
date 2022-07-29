@@ -1,0 +1,6 @@
+body{
+    background-image:url(Brasil.png),url(Logo.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 100px;
+    background-attachment: fixed,scroll;
+}
